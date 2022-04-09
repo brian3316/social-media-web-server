@@ -42,11 +42,5 @@ export async function getChat(req, res) {
         console.log(error);
 
     }
-    // message = { ...message, members: [...message.members, ..._id] }
-    // message={...message,_id,cureatedAt:new Date(),updatedAt:new Date()};
-    // res.json(_id);
-    // message.members.find({ _id: _id }, (err, result) => {
-    //     if (err) throw err;
-    //     res.json({ result, message });
-    // });
+
 }
